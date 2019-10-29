@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="css-1gx2tad"
+  height="100px"
+  radius="10%"
+  width="100px"
+/>
+`;

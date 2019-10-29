@@ -1,0 +1,51 @@
+{
+  "name": "x-five-robert-grzonka",
+  "version": "0.1.0",
+  "private": true,
+  "repository": "git@gitlab-recruitment.xfive.co:javascript/robert-grzonka-js-test.git",
+  "author": "robertgrzonka <robert@theguys.sh> (https://robert.theguys.sh)",
+  "license": "MIT",
+  "homepage": "https://xfive-robertgrzonka.firebaseapp.com",
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "@reach/router": "^1.2.1",
+    "firebase": "^6.6.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.9.0",
+    "react-color": "^2.17.3",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "standard": "^14.1.0"
+  },
+  "devDependencies": {
+    "react-test-renderer": "^16.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "firebase deploy",
+    "dev": "react-scripts build && firebase deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "globals": {
+      "test": "off",
+      "debug": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
